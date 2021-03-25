@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Reseter Node express
 //import dependemcies yang di butuhkan 
 const express = require('express')
@@ -32,6 +33,8 @@ app.get("/" , (req, res)=>{
 // Listener / server yang di jalankan
 app.listen(3000 , ()=>{console.log("server yang berjalan di port 3000")})
 =======
+=======
+>>>>>>> origin
 //import depedensi yang dibutuhkan
 const express = require('express');
 const cors = require('cors');
@@ -59,5 +62,9 @@ app.get("/" , (req, res)=>{
 });
 
 // listener
+<<<<<<< HEAD
 app.listen(3000 , ()=>{console.log("server berjalan di port 3000")})
 >>>>>>> e8e8dc3c487e8e8f22374a02d16446d2fad0f33e
+=======
+app.listen(3000 , ()=>{console.log("server berjalan di port 3000")})
+>>>>>>> origin
