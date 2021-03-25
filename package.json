@@ -1,0 +1,24 @@
+{
+  "name": "dutadropship",
+  "version": "1.0.0",
+  "description": "Project Web App Duta Dropship",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemblonganvalley/batch8_pagi_dutadropship.git"
+  },
+  "author": "jvalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemblonganvalley/batch8_pagi_dutadropship/issues"
+  },
+  "homepage": "https://github.com/jemblonganvalley/batch8_pagi_dutadropship#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  }
+}
