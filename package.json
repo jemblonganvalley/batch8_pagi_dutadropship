@@ -4,7 +4,7 @@
   "description": "Project Web App Duta Dropship",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js --watch"
+    "start": "nodemon server.js --watch"
   },
   "repository": {
     "type": "git",
