@@ -1,0 +1,23 @@
+.kategoriUnggulan{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+.produkUnggulan{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.kategoriUnggulan h1{
+    font-size: 2.2rem;
+    margin: 20px 40px ;
+
+}
+.produkUnggulan img{
+    width: 29vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
