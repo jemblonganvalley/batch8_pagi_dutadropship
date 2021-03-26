@@ -14,3 +14,7 @@ body {
     font-family: 'Kiwi Maru', serif;
     overflow-x: hidden;
 }
+
+p{
+    font-size: 1rem;
+}
