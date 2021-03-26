@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: ghostwhite;
+}
+h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+p{
+    line-height: 2;
+}
+.kategoriUnggulan{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+.produkUnggulan{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.kategoriUnggulan h1{
+    font-size: 2.2rem;
+    margin: 20px 40px ;
+
+}
+.produkUnggulan img{
+    width: 29vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
