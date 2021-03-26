@@ -22,6 +22,7 @@ app.engine("handlebars" , hb({
 
 //routing
 app.get("/" , (req, res)=>{
+
     res.render("index" , {});
 });
 
